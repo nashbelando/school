@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewpoint"
+           content="width=device-width, initial-scale=1" />
+           <title>Campus Notice</title>
+   <link rel=“stylesheet” href=“style.css” />
+</head>
+<body style="background-color:green"> 
+    <header text-align:center;>Don Mariano Marcos Memorial State University</header>
+    <nav> <a href="notice.html">home</a> </nav>
+
+    <main style="background-color:pink">
+
+   <div style="background-color:Green">DMMMSU</div>
+   <h2 style="background-color:dodgerBlue">Campus Notice</h2>
+   
+   
+    </main>
+    <div style="background-color:pink">Favorite Food</div>
+    <ul>
+        <li>Adobo</li>
+        <li>Sinigang</li>
+        <li>Paksiw</li>
+    </ul>
+    <ol>
+        <li>Adobo</li>
+        <li>Sinigang</li>
+        <li>Paksiw</li>
+    </ol>
+
+   <img src="/Users/mac11/Downloads/images (1).jpeg">
+
+   <form action="/api/notices" method="post">
+     <label for="title">Title</label>
+     <input id="title" name="title"
+            type="text" required />
+
+      <label for="msg">Message</label>  
+      <textarea id="msg" name="message"></textarea>  
+
+      <button class="btn">Post Notice</button>
+   </form>
+
+   <footer>College of Computer Science</footer>
+</body>
+</html>
